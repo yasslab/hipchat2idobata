@@ -1,8 +1,10 @@
 # Hipchat to Idobata
 
-Bring notification in Hipchat to Idobata.
+Bring notification in [HipChat](https://www.atlassian.com/ja/software/hipchat/overview) to [Idobata](http://idobata.io).
 
 ![Screenshot](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/t31.0-8/1836741_10152026163460869_2025427469289033535_o.jpg)
+
+The screenshot above is an example of bringing [Qiita:Team](https://teams.qiita.com/) notification to Idobata.
 
 ## How to setup
 
