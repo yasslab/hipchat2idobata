@@ -6,12 +6,23 @@ Bring notification in [HipChat](https://www.atlassian.com/ja/software/hipchat/ov
 
 The screenshot above is an example of bringing [Qiita:Team](https://teams.qiita.com/) notification to Idobata.
 
+## Requirements
+
+- Heroku / Heroku Scheduler (add-on)
+- `hipchat` gem
+- HipChat API Token (v2) / Room name
+- Idobata API Generic Hook
+
 ## How to setup
 
-//TODO: Write how to setup with Heroku & Heroku Scheduler
-
-![Heroku Scheduler](https://dl.dropboxusercontent.com/u/2819285/hipchat2idobata_heroku-scheduler.png)
-- `$ bundle exec ruby hipchat2idobata.rb`
+1. Set environment variables: `HIPCHAT_API_TOKEN` (HipChat API token v2), `HIPCHAT_ROOM` (Room name), and `IDOBATA_END` (Idobata Generic Hook token)
+    - Example: `heroku config:add HIPCHAT_API_TOKEN=hogehogefoobar"`
+2. `heroku create; git push heroku master`
+3. `heroku addons:add scheduler`
+4. Test: `$ bundle exec ruby hipchat2idobata.rb`
+5. Add a job to Heroku Scheduler
+   ![Heroku Scheduler](https://dl.dropboxusercontent.com/u/2819285/hipchat2idobata_heroku-scheduler.png)
+6. Done!
 
 ## License
 
