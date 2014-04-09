@@ -1,14 +1,12 @@
-# Gmail to Idobata
+# Hipchat to Idobata
 
-Search Gmail inbox and send [Idobata.io](https://idobata.io) whatever you want to notify.
+Bring notification in Hipchat to Idobata.
 
-This repositoy, for example, searches inbox and send Qiita-related mails to Idobata.
+![Screenshot](https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-ash3/t31.0-8/1836741_10152026163460869_2025427469289033535_o.jpg)
 
-## Related Repositories
+## How to setup
 
-1. [Weekly Report Bot](https://github.com/yasulab/weekly_report_bot)
-2. [Weekly Report Helper](https://github.com/yasulab/weekly_report_helper)
-3. [Weekly Report Sender](https://github.com/yasulab/weekly_report_sender)
+//TODO: Write how to setup with Heroku & Heroku Scheduler
 
 ## License
 
