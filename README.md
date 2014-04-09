@@ -10,6 +10,9 @@ The screenshot above is an example of bringing [Qiita:Team](https://teams.qiita.
 
 //TODO: Write how to setup with Heroku & Heroku Scheduler
 
+![Heroku Scheduler](https://dl.dropboxusercontent.com/u/2819285/hipchat2idobata_heroku-scheduler.png)
+- `$ bundle exec ruby hipchat2idobara.rb`
+
 ## License
 
 (The MIT License)
