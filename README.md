@@ -15,8 +15,11 @@ The screenshot above is an example of bringing [Qiita:Team](https://teams.qiita.
 
 ## How to setup
 
-1. Set environment variables: `HIPCHAT_API_TOKEN` (HipChat API token v2), `HIPCHAT_ROOM` (Room name), and `IDOBATA_END` (Idobata Generic Hook token)
-    - Example: `heroku config:add HIPCHAT_API_TOKEN=hogehogefoobar"`
+1. Set environment variables: 
+    - `HIPCHAT_API_TOKEN` for HipChat API token (v2)
+	- `HIPCHAT_ROOM` for HipChat Room name
+	- `IDOBATA_END` for Idobata Generic Hook token
+    - Command Example: `heroku config:add HIPCHAT_API_TOKEN=hogehogefoobar"`
 2. `heroku create; git push heroku master`
 3. `heroku addons:add scheduler`
 4. Test: `heroku run bundle exec ruby hipchat2idobata.rb`
